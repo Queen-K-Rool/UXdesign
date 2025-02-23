@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reserve Your Ride - Taniti Tourism</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/app.js"></script>
+</head>
+<body>
+
+
+<header>
+  <nav>
+    <div class="logo">Taniti Tourism</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="attractionsEntertainment.html">Attractions & Entertainment</a></li>
+      <li><a href="lodging.html">Lodging</a></li>
+      <li><a href="dining.html">Dining & Grocery</a></li>
+      <li><a href="transportation.html">Transportation</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<section class="reservation-section">
+  <h1>Reserve Your Ride</h1>
+
+
+  <div class="progress-bar">
+    <div class="step active">1</div>
+    <div class="step">2</div>
+    <div class="step">3</div>
+    <div class="step">4</div>
+  </div>
+
+
+  <form id="reservation-form">
+    <div class="form-group">
+      <label for="pickup-location">Pickup Location</label>
+      <input type="text" id="pickup-location" required>
+      <span class="error-message">Required</span>
+    </div>
+
+    <div class="form-group">
+      <label for="dropoff-location">Drop-off Location</label>
+      <input type="text" id="dropoff-location" required>
+      <span class="error-message">Required</span>
+    </div>
+
+    <div class="form-group">
+      <label for="ride-date">Date</label>
+      <input type="date" id="ride-date" required>
+      <span class="error-message">Required</span>
+    </div>
+
+    <div class="form-group">
+      <label for="ride-time">Time</label>
+      <input type="time" id="ride-time" required>
+      <span class="error-message">Required</span>
+    </div>
+
+    <div class="form-group">
+      <label for="vehicle-type">Select Vehicle</label>
+      <select id="vehicle-type">
+        <option value="Bus">Bus</option>
+        <option value="Rental Car">Rental Car</option>
+        <option value="Taxi">Taxi</option>
+        <option value="Bicycle">Bicycle</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="special-requests">Special Requests</label>
+      <textarea id="special-requests" rows="3"></textarea>
+    </div>
+
+    <button class="reservation-button" type="submit">Reserve Now</button>
+  </form>
+</section>
+
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-info">
+      <p>Taniti Tourism | Contact: info@taniti.com</p>
+      <p class="citation">Header IMG: freepik.com</p>
+      <p class="citation">Welcome Placeholder: https://nauticalisland.bandcamp.com/track/welcome-to-the-island-ft-gamer-jay</p>
+    </div>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a> |
+      <a href="#">Terms of Service</a>
+    </div>
+    <div class="subscribe">
+      <p>Subscribe for Updates:</p>
+      <input type="email" placeholder="Enter your email">
+      <button>Subscribe</button>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
